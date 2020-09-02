@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Test Case Vending Machine - Object Oriented Vending Machine!</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>OOP Vending Machine</title>
+  </head>
+
+  <body>
+    <div class="page-wrap">
+      <div class="vend-container">
+        <div class="vend-outer">
+          <div class="return-box" id="return">
+            reset
+          </div>
+          <div class="display-box" id="displayBox">
+
+          </div>
+          <div class="pay-box" id="pay">
+
+          </div>
+          <div id="foodCount" class="food-count">
+
+          </div>
+          <div class="coin-box">
+            <div class="coin-outter" id="five">
+              <p class="coin">1000</p>
+            </div>
+            <div class="coin-outter" id="ten">
+              <p class="coin">2000</p>
+            </div>
+            <div class="coin-outter" id="twentyFive">
+              <p class="coin">3000</p>
+            </div>
+          </div>
+          <div class="vend-back">
+            <div class="product-row">
+              <div class="food-box biskuit-box" id="biskuitBox">
+                <div class="food biskuit" id="biskuit">
+                  <p class="food-text">Biskuit</p>
+                </div>
+              </div>
+              <div class="price-box biskuit-price">
+                <p class="pay">6000</p>
+              </div>
+              <div class="tag tag-one">
+                <p class="title">A1</p>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-row">
+              <div class="food-box chips-box" id="chipsBox">
+                <div class="food chips" id="chips">
+                  <p class="food-foodt">Chips</p>
+                </div>
+              </div>
+              <div class="price-box chips-price">
+                <p class="pay">8000</p>
+              </div>
+              <div class="tag tag-two">
+                <p class="title">B3</p>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-row">
+              <div class="food-box oreo-box" id="oreoBox">
+                <div class="food oreo" id="oreo">
+                  <p class="food-foodt">Oreo</p>
+                </div>
+              </div>
+              <div class="price-box oreo-price">
+                <p class="pay">10000</p>
+              </div>
+              <div class="tag tag-three">
+                <p class="title">C4</p>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-row">
+              <div class="food-box tango-box" id="tangoBox">
+                <div class="food tango" id="tango">
+                  <p class="food-foodt">Tango</p>
+                </div>
+              </div>
+              <div class="price-box tango-price">
+                <p class="pay">12000</p>
+              </div>
+              <div class="tag tag-four">
+                <p class="title">D2</p>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-row">
+              <div class="food-box cokelat-box" id="cokelatBox">
+                <div class="food cokelat" id="cokelat">
+                  <p class="food-foodt">Cokelat</p>
+                </div>
+              </div>
+              <div class="price-box cokelat-price">
+                <p class="pay">15000</p>
+              </div>
+              <div class="tag tag-two">
+                <p class="title">E3</p>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-row">
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+              <div class="spiral">
+                <div class="inner-spiral">
+                  <div class="inner-spiral">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vend-glass"></div>
+          </div>
+          <div class="touch-pad">
+            <div class="button">
+              <p class="action">A1</p>
+            </div>
+            <div class="button">
+              <p class="action">B3</p>
+            </div>
+            <div class="button">
+              <p class="action">C4</p>
+            </div>
+            <div class="button">
+              <p class="action">D2</p>
+            </div>
+            <div class="button">
+              <p class="action">E3</p>
+            </div>
+          </div>
+          <div class="grab-box">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-box">
+      Created & Develop <span class="heart">&hearts;</span> by <a target="_blank" href="https://github.com/rizalvalry/">
+        Rizal valry </a>
+    </div>
+  </body>
+
+  </html>
+  <!-- partial -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
